@@ -1,18 +1,19 @@
 /* multiply */
-const num1 = 2;
-const num2 = 31;
+let num1 = 2;
+let num2 = 31;
 
-const multiply = num1 * num2;
-console.log(multiply)
+let multiply;
+multiply = num1 * num2;
+multiply = 62;
 
 /* random */
-Math.floor(Math.random() * 100) + 1;
+let random= Math.floor(Math.random() * 100 + 1) 
 
 /* mod */
-const num3 = 9;
-const num4 = 5;
-const mod = num3%num4;
+let num3 =10;
+let num4 = 6;
+let mod = num3 % num4;
 
 /* max */
-const max = math.max(2,7,17,20);
+let  max=Math.max(3,6,18,20,9);
 
